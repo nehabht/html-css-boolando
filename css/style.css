@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root{
+--color-sostenibilità: #00875A;
+--color-sale: #EB0037;
+--color-bgimage: #EBEBEB;
+--bg-color: #FFFFFF;
+
+} */
+
+body{
+    background-color: white;
+}
+
+.products{
+    width: 900px;
+    margin: 1rem;
+    text-align: center;
+}
+
+.product{
+    margin: 1rem;
+    position: relative;
+    display: inline-block;
+    
+}
+
+
+
+.badge {
+    padding: 4px;
+    font-size: 0.80rem;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    
+  }
+
+  .sale {
+    background-color: red;
+  }
