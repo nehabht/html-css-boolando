@@ -17,19 +17,25 @@ body{
 }
 
 .products{
-    width: 900px;
-    margin: 1rem;
+    width: 1100px;
+    margin: 1rem auto;
     text-align: center;
+
 }
 
 .product{
-    margin: 1rem;
+    width: 300px;
+    margin: 16px;
     position: relative;
     display: inline-block;
     
 }
 
+.immagine{
+    position: relative;
+}
 
+/* badge */
 
 .badge {
     padding: 4px;
@@ -37,9 +43,66 @@ body{
     position: absolute;
     bottom: 20px;
     left: 0px;
+    z-index: 3;
     
-  }
+ }
 
-  .sale {
+.sale {
+    color: white;
     background-color: red;
-  }
+}
+
+.sostenibilità{
+    color: white;
+    background-color:#00875A;
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+
+}
+
+/* heart */
+
+.heart{
+    width: 40px;
+    height: 40px;
+
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    z-index: 3;
+
+}
+
+/* IMMAGINI IN HOVER */
+
+
+.image1{
+    width: 100%;
+}
+
+.image_hover{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left:0;
+    opacity:0;
+}
+.product:hover .image_hover{
+    opacity:1;
+
+}
+
+p{
+    font-size: 12px;
+    text-align: left;
+}
+
+.discounted_price{
+    color: red;
+
+}
+  
